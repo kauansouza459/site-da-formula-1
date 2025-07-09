@@ -1,0 +1,21 @@
+body {
+    background: url('img/fundo.avif') no-repeat center center fixed;
+    /* Define uma imagem de fundo:
+    - 'url()' → Caminho da imagem de fundo.
+    - 'no-repeat' → Evita a repetição da imagem.
+    - 'center center' → Centraliza a imagem no meio da tela.
+    - 'fixed' → Faz com que a imagem de fundo fique fixa enquanto o usuário
+    rola a página. */
+    background-size: cover;
+    /* Faz com que a imagem de fundo cubra toda a área do body, mantendo a
+    proporção e preenchendo a tela */
+    
+    /* Container principal dividido em duas colunas */
+    .container {
+    display: flex;
+    /* Usa Flexbox para organizar os elementos em linha (sidebar + conteúdo) */
+    height: 100%;
+    /* Garante que o container ocupe toda a altura da tela */
+    }
+
+
